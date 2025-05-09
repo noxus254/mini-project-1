@@ -103,6 +103,24 @@
 /* end section 1 */
 
 /* button */
+button{
+    color: var(--color-2);
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--color-3);
+    padding: 16px 42px;
+    border-radius: 5px;
+    margin-right: 19.2px;
+    cursor: pointer;
+    position: relative;
+    right: -877px;
+    margin-top: 20px;
+    border: none;
+}
+button:hover{
+    background-color: #ffff;
+    color: var(--color-3);
+}
 .inner-button a{
     color: black;
     font-size: 16px;
@@ -548,8 +566,8 @@
 
 /* section 7 */
 .section-7 .inner-image {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     aspect-ratio: 1/1;
 }
 .section-7 .inner-image img{
@@ -611,7 +629,7 @@
     color: var(--color-5);
     font-weight: 500;
     font-size: 25.6px;
-    margin-bottom: 30px;
+    margin-bottom: 115px;
     height: 170px;
 }
 .section-7 .inner-icon{
