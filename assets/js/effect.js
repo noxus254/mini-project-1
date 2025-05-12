@@ -17,7 +17,11 @@ document.getElementById("myForm").addEventListener("submit", function (e) {
     const fullName = document.getElementById("fullName").value.trim();
     const email = document.getElementById("email").value.trim();
     const subject = document.getElementById("subject").value.trim();
+<<<<<<< HEAD
     const workDetail = document.getElementById("message").value.trim();
+=======
+    const workDetail = document.getElementById("workDetail").value.trim();
+>>>>>>> 8965180739f290771a923cdc869b49c1c2a6513d
 
     let errors = [];
 
@@ -37,6 +41,7 @@ document.getElementById("myForm").addEventListener("submit", function (e) {
       alert(errors.join("\n")); // Show all errors
     } else {
       alert("Form is valid. Submitting...");
+<<<<<<< HEAD
       
       // Clear the form fields after submission
       clearForm();
@@ -50,3 +55,7 @@ function clearForm() {
     document.getElementById("subject").value = "";
     document.getElementById("message").value = "";
 }
+=======
+    }
+});
+>>>>>>> 8965180739f290771a923cdc869b49c1c2a6513d

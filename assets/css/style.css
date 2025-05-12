@@ -113,7 +113,11 @@ button{
     margin-right: 19.2px;
     cursor: pointer;
     position: relative;
+<<<<<<< HEAD
     right: -892px;
+=======
+    right: -877px;
+>>>>>>> 8965180739f290771a923cdc869b49c1c2a6513d
     margin-top: 20px;
     border: none;
 }
